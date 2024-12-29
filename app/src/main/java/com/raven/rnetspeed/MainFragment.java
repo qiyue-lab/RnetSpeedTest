@@ -143,7 +143,7 @@ public class MainFragment extends PreferenceFragment implements ServiceConnectio
     }
 
     @Override
-    public void onResume() {
+   public void onResume() {
         super.onResume();
         /* 启动流量悬浮窗口 */
         Intent service = new Intent(getActivity(),FloatWindowService.class);
